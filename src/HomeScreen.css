@@ -1,0 +1,11 @@
+.homeScreen{
+    height: 100vh;
+    background-color: black;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.homeScreen::-webkit-scrollbar {
+    display: none;
+}
